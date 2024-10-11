@@ -9,27 +9,32 @@ const goal = new String("GSOc 2025")
 // console.log(typeof goal);
 // console.log(goal[5]);
 // console.log(goal.length);
-console.log(goal.toUpperCase());
-console.log(goal.indexOf('S'));
-console.log(goal.charAt(6));
+// console.log(goal.toUpperCase());
+// console.log(goal.indexOf('S'));
+// console.log(goal.charAt(6));
 
 const newString = goal.substring(5,9)
-console.log(newString);
+// console.log(newString);
 
 const anotherString = goal.slice(-4,-1)
-console.log(anotherString);
+// console.log(anotherString);
 
-const str = "   RAM    "
+const str = "RAM"
 
-console.log(str.trim());
+// console.log(str.trim());
 
 const url = "https://hitesh.com/hitesh%20choudhary"
 
-console.log(url.replace("%20","-"));
-console.log(url.includes('choudhary'));
+// console.log(url.replace("%20","-"));
+// console.log(url.includes('choudhary'));
 
-console.log(url.includes('nitesh'));
+// console.log(url.includes('nitesh'));
 
 const str2 = "coder,govind,chauhan,GC11"
+// console.log(str2);
+// console.log(str2.split(','));
 
-console.log(str2.split(','));
+// console.log(str.concat(',',str2));
+
+console.log(str2.endsWith("govind",12));
+
